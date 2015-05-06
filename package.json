@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "karma start --single-run --browsers PhantomJS"
+    "test": "karma start --single-run --browsers PhantomJS",
+    "start": "node src/js/app.js"
   },
   "author": "Willem Odendaal",
   "license": "GPLv3",
