@@ -4,6 +4,7 @@ node_js:
 before_script:
 - npm install
 deploy:
+  app: doxie-budget
   provider: heroku
   api_key:
     secure: jMghOxOR7DYgufBoAm0MzM1P0WyZQCoQbwAVeNWDGctzmSXrcUCdHRLJjLjdU1I5Q8eikhDdH8a0SEU9WT7EYrPbNC/tu0vlUR04TFr8+HbLEA1Fo1RfiblN/HWZCRnniLxDvpGhcVhXnUXm8f2LoUk2x76luE4wlAv/8/edneM=
