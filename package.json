@@ -2,10 +2,10 @@
   "name": "doxie-budget",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "karma start --single-run --browsers PhantomJS",
-    "start": "node src/js/app.js"
+    "start": "node server.js"
   },
   "author": "Willem Odendaal",
   "license": "GPLv3",
