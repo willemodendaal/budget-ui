@@ -60,6 +60,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	//
 	_reactDom2.default.render(_react2.default.createElement(_home2.default, null), document.body);
 
 /***/ },
@@ -19687,7 +19688,7 @@
 				return _react2.default.createElement(
 					'div',
 					null,
-					'Home'
+					'Home.....o..xyx'
 				);
 			}
 		}]);

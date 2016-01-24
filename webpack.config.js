@@ -1,5 +1,8 @@
+var path = require('path');
+
 module.exports = {
-	context: __dirname + "/app",
+	context: path.join(__dirname, "/app"),
+	devtool: "source-map",
 	entry: {
 		app: "./app.js",
 		html: "./index.html"
@@ -10,9 +13,9 @@ module.exports = {
 	},
 	module: {
 		loaders: [{
-			test: /\.js?$/,
+			test: /\.js$/,
 			exclude: /node_modules/,
-			loader: "babel-loader?presets[]=react,presets[]=es2015"
+			loaders: ["react-hot", "babel-loader?presets[]=react,presets[]=es2015"]
 		}, {
 			test: /\.html/,
 			loader: "file?name=index.html"
